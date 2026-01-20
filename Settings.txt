@@ -52,7 +52,7 @@ gameMode=CAREER
 #   MODERATE
 #   HARD
 #   CUSTOM
-gameDifficulty=EASY
+gameDifficulty=MODERATE
 
 # whitelisted - Enable white-listing.
 whitelisted=False
@@ -82,25 +82,25 @@ useUTCTimeInLog=False
 #   CHAT
 #   ERROR
 #   FATAL
-logLevel=DEBUG
+logLevel=ERROR
 
 # screenshotsPerPlayer - Specify maximum number of screenshots to save per player. -1 = None, 0 = Unlimited
-screenshotsPerPlayer=20
+screenshotsPerPlayer=4
 
 # screenshotHeight - Specify vertical resolution of screenshots.
 screenshotHeight=720
 
 # cheats - Enable use of cheats in-game.
-cheats=True
+cheats=False
 
 # httpPort - HTTP port for server status. 0 = Disabled
 httpPort=0
 
 # serverName - Name of the server.
-serverName=Test
+serverName=A Delta Networks Server
 
 # maxPlayers - Maximum amount of players that can join the server.
-maxPlayers=20
+maxPlayers=6
 
 # screenshotDirectory - Specify a custom screenshot directory.
 # This directory must exist in order to be used. Leave blank to store it in Universe.
